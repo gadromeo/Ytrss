@@ -5,9 +5,9 @@ import webbrowser
 
 hot = feedparser.parse("http://www.billboard.com/rss/charts/hot-100")
 
-print "==============================="
-print "=      BILLBOARD HOT 100      ="
-print "==============================="
+print "================================"
+print "=      BILLBOARD HOT 100       ="
+print "================================"
 print ""
 
 #for x in range(0,len(hot['entries'])):
