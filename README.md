@@ -1,4 +1,4 @@
 hot100
 ======
 
-Parse billboard hot 100 RSS and show youtube video
+Creates a list of current Billboard Hot 100 from RSS, then allows user to watch music videos using Youtube API.
