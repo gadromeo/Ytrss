@@ -3,7 +3,7 @@ import urllib2 as urllib
 import json
 from collections import OrderedDict
 
-DEVELOPER_KEY = "AIzaSyCjTKZ7dY0oaTvbABEvPQ26nHkVaqnGtyE "
+DEVELOPER_KEY = "AIzaSyBNAkb86snLJdii_8XX2DZti2FBQ0xn8JE "
 YOUTUBE_API_SERVICE_NAME = "youtube"
 YOUTUBE_API_VERSION = "v3"
 
