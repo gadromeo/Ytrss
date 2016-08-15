@@ -26,7 +26,7 @@ if viewvid>100:
 
 while viewvid>0:
     search = hot['entries'][viewvid-1]['chart_item_title']
-    results = urllib.urlopen("https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=1&q="+search+"&type=video&key=AIzaSyCjTKZ7dY0oaTvbABEvPQ26nHkVaqnGtyE")
+    results = urllib.urlopen("https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=20&order=date&q=gendarmerie%2Broyale&key=AIzaSyBNAkb86snLJdii_8XX2DZti2FBQ0xn8JE")
     youjs = json.load(results)
     print youjs['items'][0]['snippet']['title']
     webbrowser.open("https://www.youtube.com/watch?v="+youjs['items'][0]['id']['videoId'])
